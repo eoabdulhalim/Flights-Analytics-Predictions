@@ -69,6 +69,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 ├── flights_analytics.pbix            # Power BI interactive report with integrated ML predictions
 ├── model.pkl                         # Saved trained model
 ├── scaler.pkl                        # Saved scaler for normalization
+├── Datasets                          # Contains all Datasets used
 ├── README.md                         # Project documentation
 ```
 
@@ -127,9 +128,5 @@ Contributions, issues, and feature requests are welcome! Feel free to fork this 
 
 ## ✉️ Contact
 For inquiries or collaboration opportunities, please feel free to reach out:
-- **Email**: [Your Email Here]
-- **LinkedIn**: [Your LinkedIn Profile]
-
----
-
-You can now save this as `README.md` and upload it to your GitHub repository. Let me know if you'd like additional refinements!
+- **Email**: eoabdulhalim@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/eoabdulhalim
