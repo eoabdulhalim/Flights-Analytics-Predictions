@@ -1,5 +1,4 @@
-# Flights-Analytics-Predictions
-# ✈️ Flights-Analytics-Predictions
+# ✈️ Flights Analytics & Predictions
 
 ## Overview
 This project focuses on analyzing and predicting flight delays using machine learning and data analytics. The project is divided into three main components: **Exploratory Data Analysis (EDA) and Model Training**, **Production Model Pipeline**, and **Power BI Integration for Visualization and Prediction Reporting**.
