@@ -1,4 +1,4 @@
-# ✈️ Flights Analytics & Predictions
+# Flights Analytics & Predictions
 
 ## Overview
 This project focuses on analyzing and predicting flight delays using machine learning and data analytics. The project is divided into three main components: **Exploratory Data Analysis (EDA) and Model Training**, **Production Model Pipeline**, and **Power BI Integration for Visualization and Prediction Reporting**.
@@ -7,7 +7,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ---
 
-## 🔧 Components
+## Components
 
 ### 1. **Flights Classification Notebook (`flights_classification.ipynb`)**
 - **Description**: This notebook covers **EDA**, **data visualization**, and the **development of a machine learning model** for flight delay classification.
@@ -55,27 +55,27 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ---
 
-## 💡 Key Highlights
+## Key Highlights
 - **End-to-End Workflow**: Covers the entire machine learning lifecycle, from **EDA and model training** to **production deployment** and **business reporting**.
 - **Integration with Power BI**: The project demonstrates how machine learning can be seamlessly integrated into Power BI for real-time analytics and predictions.
 - **Reusable Code**: All preprocessing and prediction functions are modular and can be applied to other datasets.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```plaintext
-├── flights_classification.ipynb      # EDA, model training, and evaluation
-├── flights_model_production.ipynb    # Data cleaning, transformation, and pipeline functions
-├── flights_analytics.pbix            # Power BI interactive report with integrated ML predictions
+├── Flights_Training_Model.ipynb      # EDA, model training, and evaluation
+├── Flights_Model_Production.py       # Data cleaning, transformation, and Full-pipeline functions
+├── Python Script Code                # Power BI python script to load model and new predictions
 ├── model.pkl                         # Saved trained model
 ├── scaler.pkl                        # Saved scaler for normalization
-├── Datasets                          # Contains all Datasets used
+├── Datasets download link            # Contains all Datasets used
 ├── README.md                         # Project documentation
 ```
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### 1. **Setup Python Environment**
 - Install the required Python libraries:
@@ -93,40 +93,30 @@ The goal of the project is to classify flight delays effectively and integrate t
 - Open `flights_analytics.pbix` in Power BI Desktop.
 - Ensure the Python environment is configured in Power BI:
   - File → Options and Settings → Python Scripting → Select your Python installation.
+  - Do the steps here-> https://docs.google.com/document/d/1XjN8_Lx9jQurBBdvdvVRdX-qqpti3bzcauM59vyq55s/edit?tab=t.0
 - Refresh the report to generate real-time predictions and insights.
 
 ### 4. **Visualize Insights**
 - Explore trends and predictions using the interactive dashboard.
-- Use slicers to filter by airlines, departure/arrival times, and other dimensions.
+- Use slicers to filter by airlines, airports, and other dimensions.
 
 ---
 
-## 📊 Sample Dashboard
-> **Screenshot of the Power BI report here**
+## Sample Dashboard
+> **![image](https://github.com/user-attachments/assets/b3d66915-f8f8-4403-9dc3-861672c07181)
+**
 
 ---
 
-## ⚙️ Future Enhancements
-- Add more advanced machine learning models, such as gradient boosting (XGBoost/LightGBM).
-- Extend the report to include more insights (e.g., cost of delays, operational efficiency metrics).
-- Deploy the pipeline as a REST API for real-time prediction integration with external systems.
-
----
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit pull requests.
-
----
-
-## 🛠️ Tools and Technologies
+## Tools and Technologies
 - **Languages**: Python (Pandas, NumPy, Scikit-learn, Matplotlib)
-- **Machine Learning**: Decision Trees, Random Forest, Pipelines
+- **Machine Learning**: Random Forest Regressor, Pipelines
 - **Business Intelligence**: Power BI Desktop
 - **Version Control**: GitHub
 
 ---
 
-## ✉️ Contact
+## Contact
 For inquiries or collaboration opportunities, please feel free to reach out:
 - **Email**: eoabdulhalim@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/eoabdulhalim
