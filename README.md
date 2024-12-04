@@ -64,12 +64,12 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ## Repository Structure
 ```plaintext
+├── Datasets download link            # Contains all Datasets used
 ├── Flights_Training_Model.ipynb      # EDA, model training, and evaluation
 ├── Flights_Model_Production.py       # Data cleaning, transformation, and Full-pipeline functions
 ├── Python Script Code                # Power BI python script to load model and new predictions
 ├── model.pkl                         # Saved trained model
-├── scaler.pkl                        # Saved scaler for normalization
-├── Datasets download link            # Contains all Datasets used
+├── scaler.pkl                        # Saved scaler for feature scaling
 ├── README.md                         # Project documentation
 ```
 
@@ -104,7 +104,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ## Sample Dashboard
 > ![image](https://github.com/user-attachments/assets/b3d66915-f8f8-4403-9dc3-861672c07181)
-
+link to the Report-> https://app.powerbi.com/view?r=eyJrIjoiYTQ1MGY5ZWEtMmExZi00YjQ5LTliODctMGE3MjliZjI2ODdlIiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9
 ---
 
 ## Tools and Technologies
