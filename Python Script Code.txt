@@ -2,21 +2,23 @@ import sys
 import pandas as pd
 import joblib
 
-sys.path.append(r"C:\Users\97158\anaconda3\flights_model_production2.py")
+sys.path.append(r"yourPYTHON-DIRECTORY-PATH-IN-POWER-BI\Flights_Model_Production.py")
 
-from flights_model_production2 import Model_Pipeline
+from Flights_Model_Production import Model_Pipeline
 
 d1 = ['MONTH', 'DAY', 'DAY_OF_WEEK', 'AIRLINE', 'FLIGHT_NUMBER',
        'TAIL_NUMBER', 'ORIGIN_AIRPORT', 'DESTINATION_AIRPORT',
        'SCHEDULED_DEPARTURE', 'SCHEDULED_TIME', 'DISTANCE',
-       'SCHEDULED_ARRIVAL']
+       'SCHEDULED_ARRIVAL'] #NEW-DATASET-STATIC-FEATURES
 
-d2 = ['AIRLINE', 'WHEELS_OFF', 'WHEELS_ON', 'DEPARTURE_TIME']
+d2 = ['AIRLINE', 'WHEELS_OFF', 'WHEELS_ON', 'DEPARTURE_TIME'] #DYNAMIC-HISTORIC-FEATURES
 
-df = pd.read_csv(r"C:\Users\97158\anaconda3\dfbi.csv")
+#dfbi-> is the new-dataset merged with historic dataset of dynamic features based on Airline feature
 
-sc = joblib.load(r"C:\Users\97158\anaconda3\scaler_f.pkl")
-model = joblib.load(r"C:\Users\97158\anaconda3\model_f.pkl")
+df = pd.read_csv(r"yourPYTHON-DIRECTORY-PATH-IN-POWER-BI\dfbi.csv")
+
+sc = joblib.load(r"yourPYTHON-DIRECTORY-PATH-IN-POWER-BI\scaler.pkl")
+model = joblib.load(r"yourPYTHON-DIRECTORY-PATH-IN-POWER-BI\model.pkl")
 
 df_new = df[d1]
 df_hist = df[d2]
