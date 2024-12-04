@@ -1,0 +1,25 @@
+import sys
+import pandas as pd
+import joblib
+
+sys.path.append(r"C:\Users\97158\anaconda3\flights_model_production2.py")
+
+from flights_model_production2 import Model_Pipeline
+
+d1 = ['MONTH', 'DAY', 'DAY_OF_WEEK', 'AIRLINE', 'FLIGHT_NUMBER',
+       'TAIL_NUMBER', 'ORIGIN_AIRPORT', 'DESTINATION_AIRPORT',
+       'SCHEDULED_DEPARTURE', 'SCHEDULED_TIME', 'DISTANCE',
+       'SCHEDULED_ARRIVAL']
+
+d2 = ['AIRLINE', 'WHEELS_OFF', 'WHEELS_ON', 'DEPARTURE_TIME']
+
+df = pd.read_csv(r"C:\Users\97158\anaconda3\dfbi.csv")
+
+sc = joblib.load(r"C:\Users\97158\anaconda3\scaler_f.pkl")
+model = joblib.load(r"C:\Users\97158\anaconda3\model_f.pkl")
+
+df_new = df[d1]
+df_hist = df[d2]
+
+predictions = Model_Pipeline(df_new,df_hist,sc,model)
+print('predictions')
