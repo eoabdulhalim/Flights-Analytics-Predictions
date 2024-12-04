@@ -103,8 +103,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 ---
 
 ## Sample Dashboard
-> **![image](https://github.com/user-attachments/assets/b3d66915-f8f8-4403-9dc3-861672c07181)
-**
+> ![image](https://github.com/user-attachments/assets/b3d66915-f8f8-4403-9dc3-861672c07181)
 
 ---
 
