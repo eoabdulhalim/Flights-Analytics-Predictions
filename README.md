@@ -9,13 +9,13 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ## Components
 
-### 1. **Flights Classification Notebook (`flights_classification.ipynb`)**
+### 1. **Flights Training Model Notebook (`Flights_Training_Model.ipynb`)**
 - **Description**: This notebook covers **EDA**, **data visualization**, and the **development of a machine learning model** for flight delay classification.
 - **Key Steps**:
   - Performed **Exploratory Data Analysis (EDA)** to understand patterns in the data.
   - Preprocessed the dataset by handling missing values, outliers, and normalizing data.
   - Engineered features to improve the model's predictive power.
-  - Trained a machine learning model (e.g., Decision Tree, Random Forest, etc.) using **scikit-learn**.
+  - Trained a machine learning model (e.g., Linear Regression, Random Forest, etc.) using **scikit-learn**.
   - Evaluated the model on testing data using metrics such as accuracy, precision, recall, and F1-score.
 - **Output**: 
   - The trained model is saved as `model.pkl`.
@@ -23,7 +23,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ---
 
-### 2. **Flights Model Production Notebook (`flights_model_production.ipynb`)**
+### 2. **Flights Model Production Notebook (`flights_model_production.py`)**
 - **Description**: This notebook contains all necessary data cleaning, transformation, and feature encoding functions. It also implements the **full pipeline function** for generating predictions on new data.
 - **Key Features**:
   - **Data Cleaning**: Handles missing values and normalizes numerical features.
@@ -40,7 +40,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ---
 
-### 3. **Flights Analytics Power BI Report (`flights_analytics.pbix`)**
+### 3. **Flights Analytics Power BI Report**
 - **Description**: A fully interactive **Power BI Dashboard** that combines the raw data and model predictions to provide business insights.
 - **Key Features**:
   - **Data Visualizations**:
