@@ -41,7 +41,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 ---
 
 ### 3. **Flights Analytics Power BI Report**
-- **Description**: A fully interactive **Power BI Dashboard** that combines the raw data and model predictions to provide business insights.
+- **Description**: A fully interactive **Power BI Report** that combines the raw data and model predictions to provide business insights.
 - **Key Features**:
   - **Data Visualizations**:
     - Flight delay trends by airline, airport, and time.
