@@ -64,7 +64,8 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ## Repository Structure
 ```plaintext
-├── Datasets download links            # Contains all Datasets used
+├── Data Model.png                    # Data model representation of the dataset tables
+├── Datasets download links           # Contains all Datasets used
 ├── Flights_Training_Model.ipynb      # EDA, model training, and evaluation
 ├── Flights_Model_Production.py       # Data cleaning, transformation, and Full-pipeline functions
 ├── Python Script Code                # Power BI python script to load model and new predictions
