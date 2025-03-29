@@ -105,7 +105,7 @@ The goal of the project is to classify flight delays effectively and integrate t
 
 ## Sample Dashboard
 > ![image](https://github.com/user-attachments/assets/b3d66915-f8f8-4403-9dc3-861672c07181)
-link to the Report-> https://app.powerbi.com/view?r=eyJrIjoiOWIyZDFmOWMtYmFlMC00Zjc0LWIzY2YtNWY2YzM5NDBhMTgzIiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9
+link to the Report-> https://app.powerbi.com/view?r=eyJrIjoiYTQ1MGY5ZWEtMmExZi00YjQ5LTliODctMGE3MjliZjI2ODdlIiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9
 ---
 
 ## Tools and Technologies
